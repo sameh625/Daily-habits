@@ -1,16 +1,67 @@
-# project
+# Daily Habits
 
-A new Flutter project.
+A cross-platform Flutter application to help you track and manage your daily habits.
+
+## Features
+
+- **Splash Screen:** Welcomes users on app launch.
+- **Home Page:** Overview of your habits and progress.
+- **Habit List:** View, add, and manage your daily habits.
+- **Settings:** Customize your app experience.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
+- An IDE like [VS Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/daily-habits.git
+   cd daily-habits
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
+
+3. **Run the app:**
+   ```sh
+   flutter run
+   ```
+
+## Project Structure
+
+```
+lib/
+  main.dart                # App entry point
+  screens/
+    homePage.dart          # Home page UI and logic
+    settingsPage.dart      # Settings page
+    habitlListPage.dart    # Habit list management
+    splashScreen.dart      # Splash screen
+assets/
+  images/                  # App images and icons
+```
+
+## Customization
+
+- Update the app theme in [`main.dart`](lib/main.dart).
+- Add new screens or features in the `lib/screens/` directory.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ using
