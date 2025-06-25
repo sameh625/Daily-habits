@@ -54,14 +54,8 @@ assets/
 - Update the app theme in [`main.dart`](lib/main.dart).
 - Add new screens or features in the `lib/screens/` directory.
 
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Made with ❤️ using
+## Contributors
+- [Sameh](https://github.com/sameh625)
+- [Ameen](https://github.com/Ameensakr)
+- [Zeyad](https://github.com/Znno)
+- [Hadad](https://github.com/I-Elhadad)
